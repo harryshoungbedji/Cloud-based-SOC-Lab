@@ -77,5 +77,7 @@ Splunk commonly uses port 8000 for the web interface and 9997 for forwarded data
 - Hydra for SSH brute-force testing
 - Controlled activity only inside the lab environment
 
+<img width="1025" height="350" alt="Cyber-Soc-Lab_Attacker_Nmap" src="https://github.com/user-attachments/assets/7d4ea38c-6701-42c7-9a9d-34034ca79588" />
+
 # Disclaimer:
 Using an AI agent to analyze logs in a real environment comes with serious risks that need to be understood before going to production. Raw logs sent to an external API can expose sensitive data and violate compliance regulations like HIPAA and GDPR. The API key itself is a target — if compromised it can be abused or run up charges. Attackers can also craft log entries specifically designed to manipulate the AI's output, known as prompt injection. On top of that the AI can hallucinate, miss real threats, or return inconsistent results — meaning a human analyst always needs to be in the loop for critical findings. At the end of the day the AI agent is a powerful first responder that flags things fast, but it should never be the only thing standing between you and a threat.
