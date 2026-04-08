@@ -8,10 +8,10 @@ Hands-on cloud security lab built on AWS — three segmented networks where an A
 
 ## Tools / Tech Stack
 | Tool | Purpose |
-|-----------|-------------------------------------------------|
-| AWS VPC   | Network isolation and routing                   |
-| AWS EC2   | Virtual machines |
-| AWS NAT Gateway |  Private subnet internet access           |
+|---|---|
+| AWS VPC | Network isolation and routing |
+| AWS EC2 | Virtual machines |
+| AWS NAT Gateway | Private subnet internet access |
 | AWS Network ACLs | Subnet-level firewall rules |
 | AWS Security Groups | Instance-level firewall rules |
 | AWS IAM | Role-based access control |
@@ -22,4 +22,4 @@ Hands-on cloud security lab built on AWS — three segmented networks where an A
 | Python 3 | AI agent scripting |
 | Anthropic Claude API | AI-powered log analysis |
 | Hydra | SSH brute force simulation |
-| Nmap | Network scanning simulation                           |
+| Nmap | Network scanning simulation |
