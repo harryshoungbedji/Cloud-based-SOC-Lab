@@ -45,11 +45,11 @@ Build a cloud security lab on AWS with separate networks for security operations
 
 1. Create the VPC and subnets.
 2. Add the Internet Gateway.
-3. Add a NAT Gateway if the private instance needs outbound internet access.
-4. Enable VPC Flow Logs.
+3. Add a NAT Gateway.
+4. Create security groups and route tables to enforce separation between trusted and untrusted networks.
 5. Launch Splunk in the public subnet.
 6. Launch the victim in the private subnet.
-7. Use Session Manager or tightly scoped SSH for the victim.
+7. Use Session Manager or SSH through navigate each Instanace.
 8. Configure Splunk to receive data on port 9997 and access the web UI on port 8000.
 9. Add the AI analysis agent after log ingestion is validated and stable.
 
@@ -59,15 +59,7 @@ Build a cloud security lab on AWS with separate networks for security operations
 - 9997: Splunk forwarding input
 - 22: SSH, restricted to trusted admin access only
 
-Splunk commonly uses port 8000 for the web interface and 9997 for forwarded data [web:2].
-
-## Security Notes
-
-- Restrict Splunk Web to admin IP.
-- Keep the victim instance private with no public IP.
-- Prefer AWS Systems Manager Session Manager over SSH for private instances.
-- Use security groups and route tables to enforce separation between trusted and untrusted networks.
-
+Splunk commonly uses port 8000 for the web interface and 9997 for forwarded data
 
 ## AI Analysis Workflow
 
