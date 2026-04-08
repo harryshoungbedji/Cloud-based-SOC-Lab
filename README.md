@@ -68,6 +68,8 @@ Splunk commonly uses port 8000 for the web interface and 9997 for forwarded data
 3. Claude summarizes suspicious activity.
 4. The agent assigns a severity level.
 5. The agent outputs recommendations for response and tuning.
+   
+<img width="1375" height="500" alt="Cyber-Soc-Lab_Ai_LogOutput" src="https://github.com/user-attachments/assets/f6c1b53a-db77-45bd-9ab2-42ed8dc1ab22" />
 
 ## Attack Simulation
 
