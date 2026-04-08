@@ -63,12 +63,11 @@ Splunk commonly uses port 8000 for the web interface and 9997 for forwarded data
 
 ## Security Notes
 
-- Restrict Splunk Web to your admin IP.
+- Restrict Splunk Web to admin IP.
 - Keep the victim instance private with no public IP.
 - Prefer AWS Systems Manager Session Manager over SSH for private instances.
 - Use security groups and route tables to enforce separation between trusted and untrusted networks.
 
-AWS recommends NAT for private subnet outbound access and Session Manager for secure access to private EC2 instances [web:10][web:15][web:65].
 
 ## AI Analysis Workflow
 
