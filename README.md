@@ -7,6 +7,7 @@
 Hands-on cloud security lab built on AWS — three segmented networks where an Admin network (Splunk SIEM) monitors all traffic, an Untrusted network simulates attacks, and a Private network acts as the target. An AI agent installed on the Admin network collects, analyzes, and summarizes logs with severity-based recommendations using the Anthropic Claude API.
 
 ## Tools / Tech Stack
+| Tool | Purpose |
 |-----------|-------------------------------------------------|
 | AWS VPC   | Network isolation and routing                   |
 | AWS EC2   | Virtual machines |
